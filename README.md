@@ -1,3 +1,11 @@
+This demo is for esp32 only and is based on amazon AWSFreeRTOS ble-beta branch and TFT library by loboris. Demo was prepared and tested with m5stack.
+With this demo it is possible to:
+- make wifi credentials provisioning with BLE and amazon smartphone application (see https://github.com/chegewara/esp32-AWSFreeRTOS-wifi-provisioning-demo/blob/master/demos/common/ble/README.md),
+- make wifi credentials provisioning with esp smartconfig (see https://github.com/espressif/esp-idf/blob/master/examples/wifi/smart_config/README.md),
+- scan for APs and connect to any open AP (limitation for obvious reasons),
+- on screen is displayed clock with hardcoded starting value,
+- there is few hidden APIs i added to AWSFreeRTOS, but are not used in this demo (ble API).
+
 ## Getting Started
 
 For more information on Amazon FreeRTOS, refer to the [Getting Started section of Amazon FreeRTOS webpage](https://aws.amazon.com/freertos).
