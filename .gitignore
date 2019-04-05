@@ -1,0 +1,5 @@
+# Ignore uncrustify backups
+*.unc*
+doc/html/*
+demos/espressif/esp32_devkitc_esp_wrover_kit/make/build
+demos/espressif/esp32_devkitc_esp_wrover_kit/make/build/*

@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "aws_demo_runner.h": "c",
+        "aws_clientcredential.h": "c"
+    }
+}
